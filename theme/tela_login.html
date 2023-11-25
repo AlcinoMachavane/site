@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/login_cadastro.css">
+</head>
+<body>
+    <main>
+        <form action="main_theme.html" method="post">
+            <label class="campo" for="ID_email">E-mal</label>
+            <input type="email" name="email" id="ID_email" required placeholder="insira seu e-mail"><br>
+
+            <label class="campo" for="ID_senha">Senha</label>
+            <input type="password" name="senha" id="ID_senha" required placeholder="insira sua senha"><br>
+
+            <input id="submeter" type="submit" value="Entrar"><br>
+
+            <label for="ID_login_automatico_google">
+                <img src="../icon/icons8_google_48px_1.png">
+                <a id="ID_login_automatico_google" href="../index.html">Usar sua conta google</a><br>
+            </label>
+
+            <label for="ID_login_automatico_facebook">
+                <img src="../icon/icons8_facebook_48px_1.png">
+                <a id="ID_login_automatico_facebook" href="../index.html">Usar sua conta do facebook</a><br>
+            </label>
+
+            <label for="ID_recuperar_senha">
+                <img src="../icon/icons8_online_support_50px.png">
+                <a id="ID_recuperar_senha" href="../pages/index.html">Esqueceu-se da sua senha?</a><br>
+            </label>
+        </form>
+    </main>
+</body>
+</html>

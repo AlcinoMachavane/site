@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+main{
+
+}
+
+main > form{
+    max-width: 800px;
+    top: 20px;
+    margin: auto;
+    position: relative;
+    translate: 50% 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(100, 149, 237, 0.09);
+    width: 50vw;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+main > form > input{
+    padding: 5px;
+    width: 50vw;
+    margin-bottom: 30px;
+}
+#submeter{
+    color: white;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#submeter:hover{
+    color: white;
+    background-image:linear-gradient(to right, rgba(138, 43, 226, 0.3), rgba(138, 43, 226, 0.76));
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.44);
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+main > form > label > img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+main > form > label > img:hover{
+    width: 40px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+}
+.campo{
+    font-size: 0.7em;
+    color: cornflowerblue;
+}
+main>form>label>a{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    color: white;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.7em;
+    width: 50vw;
+}
+main>form>label>a:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: rgba(138, 43, 226, 0.3);
+}
