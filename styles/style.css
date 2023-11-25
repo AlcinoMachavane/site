@@ -12,7 +12,7 @@ html{
 
 }
 body{
-    background-color: indigo;
+    background-size: cover;
 }
 menu{
     display: inline-block;
@@ -36,10 +36,10 @@ header{
     background-color: cornflowerblue;
 }
 
-main{
+/*main{
     height: 800px;
     background-color: white;
-}
+}*/
 footer{
     /*border-radius: 50% 50% 0% 0%;*/
     height: 300px;
