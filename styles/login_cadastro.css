@@ -5,7 +5,8 @@ main{
 }
 
 main > form{
-    max-width: 800px;
+    min-width: 320px;
+    max-width: 375px;
     top: 20px;
     margin: auto;
     position: relative;
