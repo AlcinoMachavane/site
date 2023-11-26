@@ -6,7 +6,7 @@
 /*position: relative;*/
 /*translate: 50% 50%;*/
 /*transform: translate(-50%, -50%);*/
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 1440px) {
 
     h1 {
         color: rgba(60, 60, 103, 0.76);
