@@ -6,75 +6,91 @@
 /*position: relative;*/
 /*translate: 50% 50%;*/
 /*transform: translate(-50%, -50%);*/
+@media screen and (max-width: 376px) {
 
-*{
-    box-sizing: border-box;
-}
-html, body{
-    width: 99vw;
-    height: 88vh;
-}
 
-h1{
-    color: rgba(60, 60, 103, 0.76);
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 50px;
-}
-main > form{
-    text-align: center;
-}
-.campo{
-    min-width: 260px;
-    width: auto;
-    border: 0.7px solid rgba(0, 0, 0, 0.59);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
-}
-.recuperar_senha{
-    margin: -6px;
-    width: 20px;
-    height: 20px;
-}
-a#recuperar_senha_texto{
-    color: grey;
-    font-size: 0.8em;
-}
-#recuperar_senha_texto:hover{
-    color: rgba(60, 60, 103, 0.76);
-    text-decoration: lightgray;
-    text-decoration: underline;
-}
-#submeter{
-    margin: 20px;
-    width: 80px;
-    padding: 5px;
-}
-#submeter:hover{
-    color: white;
-    color: rgba(60, 60, 103, 0.76);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.28);
-    transition-duration: 1s;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-p{
-    color: grey;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-}
-section{
-    padding-left: 25px;
-    width: 150px;
-    margin: auto;
-}
-.opcional{
-    margin: 0px;
-    width: 30px;
-    height: 30px;
-}
-a{
-    margin: 10px;
-    text-decoration: none;
+    html, body {
+        margin: auto;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    h1 {
+        color: rgba(60, 60, 103, 0.76);
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        min-width: 260px;
+        width: auto;
+        border: 0.7px solid rgba(0, 0, 0, 0.59);
+        border-radius: 5px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .recuperar_senha {
+        margin: -6px;
+        width: 20px;
+        height: 20px;
+    }
+
+    a#recuperar_senha_texto {
+        color: grey;
+        font-size: 0.8em;
+    }
+
+    #recuperar_senha_texto:hover {
+        color: rgba(60, 60, 103, 0.76);
+        text-decoration: lightgray;
+        text-decoration: underline;
+    }
+
+    #submeter {
+        margin: 20px;
+        width: 80px;
+        padding: 5px;
+    }
+
+    #submeter:hover {
+        cursor: pointer;
+        color: white;
+        color: rgba(60, 60, 103, 0.76);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.28);
+        transition-duration: 1s;
+    }
+
+    p {
+        color: grey;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    section {
+        padding-left: 25px;
+        width: 150px;
+        margin: auto;
+    }
+
+    .opcional {
+        margin: 0px;
+        width: 30px;
+        height: 30px;
+    }
+
+    a {
+        margin: 10px;
+        text-decoration: none;
+    }
 }
