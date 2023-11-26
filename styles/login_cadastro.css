@@ -10,6 +10,10 @@
 *{
     box-sizing: border-box;
 }
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
 
 h1{
     color: rgba(60, 60, 103, 0.76);
@@ -45,7 +49,6 @@ a#recuperar_senha_texto{
 #submeter{
     margin: 20px;
     width: 80px;
-    border-radius: 3px;
     padding: 5px;
 }
 #submeter:hover{
