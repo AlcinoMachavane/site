@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+/*Esta e a versao mobile*/
+
 /*margin: auto;*/
 /*position: relative;*/
 /*translate: 50% 50%;*/
 /*transform: translate(-50%, -50%);*/
+
+*{
+    box-sizing: border-box;
+}
 
 h1{
     color: rgba(60, 60, 103, 0.76);
@@ -19,8 +25,22 @@ main > form{
     width: auto;
     border: 0.7px solid rgba(0, 0, 0, 0.59);
     border-radius: 5px;
-    padding: 7px;
-    margin: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.recuperar_senha{
+    margin: -6px;
+    width: 20px;
+    height: 20px;
+}
+a#recuperar_senha_texto{
+    color: grey;
+    font-size: 0.8em;
+}
+#recuperar_senha_texto:hover{
+    color: rgba(60, 60, 103, 0.76);
+    text-decoration: lightgray;
+    text-decoration: underline;
 }
 #submeter{
     margin: 20px;
@@ -42,16 +62,16 @@ p{
     text-align: center;
 }
 section{
-    padding-left: 30px;
-    width: 250px;
+    padding-left: 25px;
+    width: 150px;
     margin: auto;
 }
 .opcional{
-    margin: 5px;
+    margin: 0px;
     width: 30px;
     height: 30px;
 }
 a{
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
 }
