@@ -15,13 +15,12 @@ main > form{
     text-align: center;
 }
 .campo{
-    display: inline-block;
     min-width: 260px;
     width: auto;
     border: 0.7px solid rgba(0, 0, 0, 0.59);
     border-radius: 5px;
     padding: 7px;
-    margin: -5px;
+    margin: 10px;
 }
 #submeter{
     margin: 20px;
@@ -37,20 +36,22 @@ main > form{
 }
 
 p{
+    color: grey;
+    margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
 }
 section{
-    background-color: red;
+    padding-left: 30px;
+    width: 250px;
+    margin: auto;
 }
-
-img{
-    display: inline-block;
-    width: 25px;
-    margin: 20px;
-    position: relative;
-    translate: 250% 20%;
+.opcional{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
 }
 a{
+    margin: 15px;
     text-decoration: none;
 }
