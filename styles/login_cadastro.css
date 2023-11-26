@@ -7,19 +7,27 @@
 /*translate: 50% 50%;*/
 /*transform: translate(-50%, -50%);*/
 @media screen and (max-width: 1440px) {
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 150px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
     form{
         padding-top: 20px;
         margin: auto;
-        width: 300px;
+        width: 280px;
         border-radius: 40px;
-        border: 2px solid black;
+        border: 0.2px solid black;
     }
 
     h1 {
         font-size: 1.5em;
-        font-weight: normal;
-        color: rgba(60, 60, 103, 0.76);
+        font-weight: bold;
+        color: rgb(151, 172, 193);
         text-align: center;
+        text-shadow: .5px .5px 2px rgba(0, 0, 0, 0.29);
         margin-bottom: 20px;
         margin-top: 50px;
     }
@@ -36,8 +44,8 @@
     }
 
     .campo {
-        border: 0.7px solid rgba(0, 0, 0, 0.59);
-        border-radius: 15px;
+        border: 2px solid rgb(151, 172, 193);
+        border-radius: 12px;
         padding: 10px;
         margin: 20px;
     }
@@ -59,19 +67,13 @@
     }
 
     #submeter {
-        color: rgba(60, 60, 103, 0.76);
+        background-color: rgb(151, 172, 193);
+        color: rgba(255, 255, 255, 0.84);
         margin: 20px;
-        width: 80px;
+        width: 120px;
         padding: 5px;
+        box-shadow: 1px 1px 3px cornflowerblue;
     }
-
-    /*#submeter:hover {
-        cursor: pointer;
-        color: white;
-        color: rgba(60, 60, 103, 0.76);
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.28);
-        transition-duration: 1s;
-    }*/
 
     p {
         color: grey;

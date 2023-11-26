@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 376px) and (max-width: 1024px) { /*Versao ipad*/
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 400px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+    form{
+        width: 500px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) { /*Versao leptop*/
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 400px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+    form{
+        width: 500px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1680px) { /*Versao desktop*/
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 400px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
+    form{
+        width: 500px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1920px) { /*Versao desktop*/
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 800px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
+    form{
+        width: 500px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1920px){ /*Versao desktop*/
+    html{
+        background-image: url("../icon/bordas1.png");
+        background-size: 800px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
+    form{
+        width: 500px;
+    }
+
+    main > form {
+        text-align: center;
+    }
+
+    .campo {
+        width: 400px;
+    }
+}
